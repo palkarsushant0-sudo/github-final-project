@@ -56,3 +56,18 @@ This project is licensed under the Apache License 2.0 — see the
 
 Built as the final project for the "Introduction to Git and GitHub"
 course.
+# Introduction to Git and GitHub
+
+## Simple Interest Calculator
+
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+
+Input:
+p, principal amount
+t, time period in years
+r, annual rate of interest
+
+Output:
+simple interest = p*t*r
+
+© 2022 XYZ, Inc.
