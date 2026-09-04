@@ -1,68 +1,58 @@
-# GitHub and Git Project
+# Simple Interest Calculator
 
-## Project Name
+Simple Interest Calculator is a Bash-based command-line tool that
+computes simple interest based on user-provided input. Users enter the
+principal amount, the rate of interest, and the time period, and the
+script calculates and displays the resulting simple interest.
 
-GitHub and Git Project
-
-## Project Description
-
-This project is created as part of the IBM Skills Network Introduction to Git and GitHub final project.
-
-The purpose of this project is to demonstrate the basic concepts and practical usage of Git and GitHub, including repository creation, branching, merging, pull requests, commits, and collaboration.
-
-The project demonstrates how developers can use Git for version control and GitHub for hosting and managing source code.
-
-## Objectives
-
-The main objectives of this project are:
-
-- Understand Git and GitHub fundamentals.
-- Create and manage a Git repository.
-- Work with Git branches.
-- Create and manage commits.
-- Merge branches.
-- Create and manage pull requests.
-- Demonstrate a bug-fix workflow.
-- Revert changes when required.
-- Work with a forked repository.
-- Push local changes to GitHub.
-- Track branch status and remote branches.
-- Follow basic open-source contribution practices.
+This project also serves as a hands-on exercise in Git and GitHub
+workflows, including forking, cloning, branching, staging, committing,
+merging, and opening pull requests.
 
 ## Features
 
-This project includes the following features:
+- Prompts the user for principal, rate of interest, and time period
+- Calculates simple interest using the standard formula:
+  `Simple Interest = (Principal * Rate * Time) / 100`
+- Displays the calculated result to the user
 
-- Git repository initialization
-- GitHub repository management
-- README documentation
-- Apache 2.0 License
-- Code of Conduct
-- Contribution guidelines
-- Main branch
-- Bug-fix branch
-- Commit history
-- Branch merging
-- Pull request workflow
-- Bug-fix and revert workflow
-- Remote repository connection
-- Forked repository configuration
+## Usage
 
-## Technologies Used
+```bash
+chmod +x simple-interest.sh
+./simple-interest.sh
+```
 
-- Git
-- GitHub
-- Git Bash / Command Prompt
-- Markdown
-- GitHub Pull Requests
+Follow the on-screen prompts to enter the principal, rate of interest,
+and time period.
 
-## Repository Structure
+## Project Structure
 
-```text
-git-hub-corsere/
-│
+```
+.
 ├── README.md
 ├── LICENSE
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
-└── project files
+└── simple-interest.sh
+```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to
+contribute to this project.
+
+## Code of Conduct
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before
+participating in this project.
+
+## License
+
+This project is licensed under the Apache License 2.0 — see the
+[LICENSE](LICENSE) file for details.
+
+## Author
+
+Built as the final project for the "Introduction to Git and GitHub"
+course.
