@@ -1,25 +1,21 @@
 #!/bin/bash
-# simple-interest.sh
-# A simple calculator to compute Simple Interest based on user input.
-# Simple Interest formula: SI = (Principal * Rate * Time) / 100
 
-echo "===== Simple Interest Calculator ====="
+# Simple Interest Calculator
+# Computes simple interest based on user-provided principal,
+# rate of interest, and time period.
 
-echo "Enter Principal Amount:"
-read principal
+echo "----- Simple Interest Calculator -----"
 
-echo "Enter Rate of Interest (in %):"
-read rate
+read -p "Enter Principal Amount: " principal
+read -p "Enter Rate of Interest: " rate
+read -p "Enter Time Period (in years): " time
 
-echo "Enter Time Period (in years):"
-read time
-
-# Calculate simple interest using bc for floating point math
+# Simple Interest = (Principal * Rate * Time) / 100
 simple_interest=$(echo "scale=2; ($principal * $rate * $time) / 100" | bc)
 
-echo "---------------------------------------"
-echo "Principal Amount : $principal"
-echo "Rate of Interest : $rate%"
-echo "Time Period      : $time year(s)"
-echo "Simple Interest   : $simple_interest"
-echo "---------------------------------------"
+echo "----------------------------------------"
+echo "Principal Amount   : $principal"
+echo "Rate of Interest   : $rate"
+echo "Time Period        : $time years"
+echo "Simple Interest     : $simple_interest"
+echo "----------------------------------------"
