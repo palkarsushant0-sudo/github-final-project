@@ -1,39 +1,68 @@
-# Git and GitHub Capstone Project
+# GitHub and Git Project
 
 ## Project Name
 
-Simple Interest Calculator
+GitHub and Git Project
 
-## Description
+## Project Description
 
-This project is part of the Introduction to Git and GitHub capstone project.
-It demonstrates basic Git and GitHub concepts such as repository creation,
-forking, cloning, branching, merging, pull requests, and version control.
+This project is created as part of the IBM Skills Network Introduction to Git and GitHub final project.
 
-The project includes a Bash script that calculates simple interest using
-Principal, Rate of Interest, and Time.
+The purpose of this project is to demonstrate the basic concepts and practical usage of Git and GitHub, including repository creation, branching, merging, pull requests, commits, and collaboration.
 
-## Formula
+The project demonstrates how developers can use Git for version control and GitHub for hosting and managing source code.
 
-Simple Interest = (Principal × Rate × Time) / 100
+## Objectives
 
-Where:
+The main objectives of this project are:
 
-- Principal = Initial amount of money
-- Rate = Rate of interest
-- Time = Time period
+- Understand Git and GitHub fundamentals.
+- Create and manage a Git repository.
+- Work with Git branches.
+- Create and manage commits.
+- Merge branches.
+- Create and manage pull requests.
+- Demonstrate a bug-fix workflow.
+- Revert changes when required.
+- Work with a forked repository.
+- Push local changes to GitHub.
+- Track branch status and remote branches.
+- Follow basic open-source contribution practices.
 
-## Project Contents
+## Features
 
-- `README.md` — Project documentation
-- `LICENSE` — Apache License 2.0
-- `CODE_OF_CONDUCT.md` — Contributor Covenant Code of Conduct
-- `CONTRIBUTING.md` — Contribution guidelines
-- `simple-interest.sh` — Bash script for calculating simple interest
+This project includes the following features:
 
-## How to Run
+- Git repository initialization
+- GitHub repository management
+- README documentation
+- Apache 2.0 License
+- Code of Conduct
+- Contribution guidelines
+- Main branch
+- Bug-fix branch
+- Commit history
+- Branch merging
+- Pull request workflow
+- Bug-fix and revert workflow
+- Remote repository connection
+- Forked repository configuration
 
-Clone the repository:
+## Technologies Used
 
-```bash
-git clone https://github.com/<your-username>/git-github-capstone.git
+- Git
+- GitHub
+- Git Bash / Command Prompt
+- Markdown
+- GitHub Pull Requests
+
+## Repository Structure
+
+```text
+git-hub-corsere/
+│
+├── README.md
+├── LICENSE
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+└── project files
