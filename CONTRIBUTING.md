@@ -33,3 +33,27 @@ If you find a bug, please open an issue describing:
 Please keep changes small and focused, and include clear commit messages.
 
 Thank you for contributing!
+# Contributing
+
+Thank you for your interest in contributing to this project!
+
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
+
+## About This Project
+
+This project is part of the IBM Skills Network Introduction to Git and GitHub course. It demonstrates Git and GitHub concepts such as repositories, branches, commits, pull requests, merging, and collaboration.
+
+## How to Contribute
+
+Follow these steps to contribute:
+
+### 1. Fork the Repository
+
+Fork this repository to your own GitHub account.
+
+### 2. Clone Your Fork
+
+Clone the repository to your local computer:
+
+```bash
+git clone https://github.com/palkarsushant0-sudo/git-hub-corsere.git
